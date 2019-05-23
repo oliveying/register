@@ -42,4 +42,16 @@ npm start // 启动项目
 ```
 * express这样的MVC框架模式，是一个Web项目的基本构成。
 
+> 转自[Node.js基于Express框架搭建一个简单的注册登录Web功能](https://www.cnblogs.com/imwtr/p/4360341.html)
+
+
+最后一步新建
+```bash
+sudo mkdir -p /data/db // 容易出错
+whoami // 不知道用户名的话先查询用户名 执行
+sudo chown username /data/db  //文件夹没有权限 执行一下 (username是你的用户名)
+
+
+```
+>[https://www.jianshu.com/p/7241f7c83f4a](https://www.jianshu.com/p/7241f7c83f4a)
 
